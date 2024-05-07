@@ -1,3 +1,4 @@
 login_host: 172.31.17.217
 mysql_root_password: Srinath@1
 login_user: root 
+DB_HOST: 172.31.17.217
