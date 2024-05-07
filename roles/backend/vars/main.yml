@@ -3,3 +3,5 @@ login_user: root
 login_host: 172.31.17.217
 mysql_root_password: Srinath@1 
 DB_HOST: 172.31.17.217
+app_location: /app
+component: backend
