@@ -34,7 +34,7 @@
     src: backend.service.j2
     dest: /etc/systemd/system/backend.service
   notify:
-    reload systemd 
+    daemon reload 
     
 
 - name: install python mysql dependencies
@@ -53,6 +53,6 @@
     state: import
     name: all
   notify:
-  - restart backend service 
+  - start and enable backend service 
   
 
