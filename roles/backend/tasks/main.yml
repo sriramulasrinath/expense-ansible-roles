@@ -34,7 +34,7 @@
     src: backend.service.j2
     dest: /etc/systemd/system/backend.service
   notify:
-    daemon reload 
+    reload systemd 
     
 
 - name: install python mysql dependencies
