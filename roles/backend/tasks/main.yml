@@ -52,9 +52,7 @@
     target: /app/schema/backend.sql
     state: import
     name: all
-
-
-
   notify:
   - restart backend
+  - enabled
 
