@@ -53,6 +53,6 @@
     state: import
     name: all
   notify:
-  - restart backend
-  - enabled
+  - restart backend service 
+  
 
