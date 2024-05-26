@@ -1,7 +1,7 @@
 
 login_user: root
 login_host: db.srinath.online
-mysql_root_password: ExpenseApp@1 
+login_password: ExpenseApp@1 
 DB_HOST: db.srinath.online
 app_location: /app
 component: backend
